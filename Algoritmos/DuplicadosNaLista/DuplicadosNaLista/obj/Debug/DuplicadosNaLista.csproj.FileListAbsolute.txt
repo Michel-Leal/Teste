@@ -1,0 +1,7 @@
+C:\Users\michel.leal\OneDrive - SEB - Sistema Educacional Brasileiro\Desktop\Michel - T\Knewin_API\DuplicadosNaLista\DuplicadosNaLista\bin\Debug\DuplicadosNaLista.exe.config
+C:\Users\michel.leal\OneDrive - SEB - Sistema Educacional Brasileiro\Desktop\Michel - T\Knewin_API\DuplicadosNaLista\DuplicadosNaLista\bin\Debug\DuplicadosNaLista.exe
+C:\Users\michel.leal\OneDrive - SEB - Sistema Educacional Brasileiro\Desktop\Michel - T\Knewin_API\DuplicadosNaLista\DuplicadosNaLista\bin\Debug\DuplicadosNaLista.pdb
+C:\Users\michel.leal\OneDrive - SEB - Sistema Educacional Brasileiro\Desktop\Michel - T\Knewin_API\DuplicadosNaLista\DuplicadosNaLista\obj\Debug\DuplicadosNaLista.csprojAssemblyReference.cache
+C:\Users\michel.leal\OneDrive - SEB - Sistema Educacional Brasileiro\Desktop\Michel - T\Knewin_API\DuplicadosNaLista\DuplicadosNaLista\obj\Debug\DuplicadosNaLista.csproj.CoreCompileInputs.cache
+C:\Users\michel.leal\OneDrive - SEB - Sistema Educacional Brasileiro\Desktop\Michel - T\Knewin_API\DuplicadosNaLista\DuplicadosNaLista\obj\Debug\DuplicadosNaLista.exe
+C:\Users\michel.leal\OneDrive - SEB - Sistema Educacional Brasileiro\Desktop\Michel - T\Knewin_API\DuplicadosNaLista\DuplicadosNaLista\obj\Debug\DuplicadosNaLista.pdb
