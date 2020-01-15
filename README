@@ -1,0 +1,50 @@
+API, usar o POSTMAN para verificação
+Scripts das tabelas e database na pasta DB, utilizado o SQLServer, na pasta contém também um backup dos dados utilizados por mim, para uma carga inicial.
+
+---------------------------------------------------------------------
+- Uma funcionalidade para fazer login.
+Contrato (POST): api/login/Acessar
+Ex.: api/login/Acessar?login=adm&senha=3256
+
+----------------------------------------------------------------------
+- Uma funcionalidade para cadastrar novas cidades:
+  - As cidades devem contar no mínimo com:
+    - Um nome e uma estrutura que diga com quem ela faz fronteira
+    - Ex: 
+      - {"Nome": "A", "Fronteira": ["B", "E"]}
+      - {"Nome": "São José", "Fronteira": ["Florianópolis", "Palhoça"]}
+Contrato (POST): api/cidade/CadastrarCidade
+Ex.: api/cidade/CadastrarCidade?nome=Serrana&habitantes=500&cidadesFronteira=Altinópolis,Serra Azul   
+
+----------------------------------------------------------------------------      
+- Um meio para retornar todas as cidades já cadastradas ( essa não precisa estar autenticado )
+Contrato (GET): api/cidade/PesquisarTodasCidade
+Ex.: api/cidade/PesquisarTodasCidade
+
+-----------------------------------------------------------------------------
+- Um meio para procurar uma cidade especifica
+Contrato (GET): api/cidade/PesquisarCidade
+Ex.: api/cidade/PesquisarCidade?cidade=Sertãozinho
+
+--------------------------------------------------------------------------------
+- Um meio que retorne as cidades que fazem fronteira com uma cidade específica
+  - Ex: Quem faz fronteira com a Cidade B?
+Contrato (GET): api/cidade/FronteiraCom
+Ex.: api/cidade/FronteiraCom?cidade=Sertãozinho
+
+--------------------------------------------------------------------------------
+- Retornar a soma dos habitantes de um conjunto de cidades
+  - Ex: cidade A,B,C possuem 50 mil habitantes
+Contrato (GET): api/cidade/SomaHabitantes
+Ex.: api/cidade/SomaHabitantes?cidades=Sertãozinho,Ribeirão Preto
+  
+-------------------------------------------------------------------------------
+- Um método pra eu poder atualizar os dados de uma cidade, por exemplo mudar a quantidade de habitantes.
+Contrato (POST): api/cidade/Atualizar
+Ex.: /api/cidade/Atualizar?habitantes=100&nome=&idCidade=1
+
+-------------------------------------------------------------------------------
+- O caminho que devo fazer de uma cidade a outra
+  - Ex: sair de cidade Buenos aires e ir até a cidade Florianópolis
+Contrato (GET): api/cidade/BuscarCaminho
+Ex.: http://localhost:60691/api/cidade/BuscarCaminho?cidadePartida=Ribeirão Preto&cidadeChegada=Altinópolis
