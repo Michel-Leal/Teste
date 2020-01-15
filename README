@@ -1,5 +1,11 @@
-API, usar o POSTMAN para verificação
-Scripts das tabelas e database na pasta DB, utilizado o SQLServer, na pasta contém também um backup dos dados utilizados por mim, para uma carga inicial.
+********Algoritmos********
+Localizados na pasta ALGORITMOS
+
+
+****API******
+Usar o POSTMAN para verificação
+Scripts das tabelas e database na pasta DB, utilizado o SQLServer.
+Backup dos dados utilizados por mim, para uma carga inicial ( https://drive.google.com/open?id=15FmOPbZkVFm7w4E0aP20k4mVlqC7Plbr ).
 
 ---------------------------------------------------------------------
 - Uma funcionalidade para fazer login.
