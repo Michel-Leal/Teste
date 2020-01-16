@@ -3,10 +3,13 @@ Localizados na pasta ALGORITMOS
 
 
 ****API******
-Localicado através do https://drive.google.com/open?id=1krEBStpg16Ilxg37YvyVg4wwh10A4io-
-Usar o POSTMAN para verificação
-Scripts das tabelas e database na pasta DB, utilizado o SQLServer.
-Backup dos dados utilizados por mim, para uma carga inicial ( https://drive.google.com/open?id=15FmOPbZkVFm7w4E0aP20k4mVlqC7Plbr ).
+-Localicado através do https://drive.google.com/open?id=1krEBStpg16Ilxg37YvyVg4wwh10A4io-
+-Usar o POSTMAN para verificação
+-Alterar a conexão no Web.Config: 
+  <add name="TemporarioEntities1" connectionString="metadata=res://*/Database.TemporarioDB.csdl|res://*/Database.TemporarioDB.ssdl|res://*/Database.TemporarioDB.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=localhost;initial catalog=Temporario;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+para o "data source" criado com os scripts enviados.
+-Scripts das tabelas e database na pasta DB, utilizado o SQLServer.
+-Backup dos dados utilizados por mim, para uma carga inicial ( https://drive.google.com/open?id=15FmOPbZkVFm7w4E0aP20k4mVlqC7Plbr ).
 
 ---------------------------------------------------------------------
 - Uma funcionalidade para fazer login.
